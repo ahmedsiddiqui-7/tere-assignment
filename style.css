@@ -1,0 +1,381 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  background-color: #fff;
+}
+
+.top-bar img {
+  width: 180px;
+  height: auto;
+}
+
+.menu-links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 17px;
+  transition: color 0.3s ease;
+}
+
+.menu-links a:hover {
+  color: #75BF7A;
+}
+
+.menu-links button {
+  padding: 12px 30px;
+  background-color: #75BF7A;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-links button:hover {
+  background-color: #5ca865;
+  transform: translateY(-2px);
+}
+
+.intro-area {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.intro-text {
+  max-width: 600px;
+}
+
+.intro-text h1 {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #000;
+}
+
+.intro-text p {
+  font-size: 22px;
+  color: #9E9DA2;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+.store-badges img {
+  width: 240px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.store-badges img:hover {
+  transform: scale(1.05);
+}
+
+.intro-image img {
+  width: 550px;
+  height: auto;
+}
+
+.download-promo {
+  background-color: #75BF7A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px auto;
+  border-radius: 10px;
+  width: 90%;
+  padding: 40px;
+}
+
+.download-promo p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.promo-action {
+  display: flex;
+  gap: 15px;
+}
+
+.promo-action img {
+  height: 67px;
+}
+
+.promo-action button {
+  background-color: #000;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.promo-action button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.workflow {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.workflow h1 {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.workflow span {
+  color: #75BF7A;
+}
+
+.workflow p {
+  max-width: 700px;
+  margin: 20px auto 0;
+  font-size: 20px;
+  color: #9E9DA2;
+}
+
+.steps-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 60px;
+}
+
+.steps-left,
+.steps-right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 30%;
+}
+
+.step-box {
+  text-align: left;
+}
+
+.step-icon {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.step-icon img:first-child {
+  width: 100%;
+  height: auto;
+}
+
+.step-icon img:last-child {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 25px;
+  height: auto;
+}
+
+.step-box h5 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.step-box p {
+  font-size: 18px;
+  color: #9E9DA2;
+  line-height: 1.4;
+}
+
+.steps-center {
+  position: relative;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.steps-center img:first-child {
+  width: 400px;
+}
+
+.steps-center img:last-child {
+  position: absolute;
+  top: -90px;
+  left: 60px;
+  width: 300px;
+}
+
+.decor-dots {
+  display: block;
+  margin: 80px auto 0;
+  width: 65px;
+}
+
+.features-title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.features-title h1 {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.features-title span {
+  color: #75BF7A;
+}
+
+.benefit-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 90%;
+  margin: 50px auto;
+  padding: 40px;
+  align-items: center;
+}
+
+.benefit-section.alternate {
+  flex-direction: row-reverse;
+}
+
+.benefit-left {
+  max-width: 50%;
+}
+
+.benefit-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.benefit-box h1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.benefit-left p {
+  font-size: 20px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.benefit-right img {
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.benefit-right img:hover {
+  transform: scale(1.05);
+}
+
+.footer-area {
+  margin-top: 150px;
+  padding: 60px 0 20px;
+  background-color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.footer-contact h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.footer-downloads img {
+  width: 180px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-downloads img:hover {
+  transform: scale(1.05);
+}
+
+.footer-note {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+}
+
+/* Responsive tweaks */
+@media (max-width: 1024px) {
+  .steps-area {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .steps-left,
+  .steps-right,
+  .steps-center {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .benefit-section,
+  .benefit-section.alternate {
+    flex-direction: column;
+  }
+
+  .benefit-left,
+  .benefit-right {
+    text-align: center;
+  }
+
+  .top-bar,
+  .intro-area {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .store-badges img {
+    margin-bottom: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+}
+
